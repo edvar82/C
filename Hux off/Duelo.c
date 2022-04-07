@@ -65,4 +65,4 @@ int main()
     return 0;
 }
 
-// https://www.thehuxley.com/problem/3778?quizId=7484
+// https://www.thehuxley.com/problem/3778?quizId=7484 <<-- Site
