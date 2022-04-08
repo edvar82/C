@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// 0 - WILLY || 1 - RODRIGO || 2 - EMPATE
+
 int vencedor(int num1, int num2)
 {
     if ((num1 == 1 && num2 == 3) || (num1 == 3 && num2 == 2) || (num1 == 2 && num2 == 4) || (num1 == 4 && num2 == 5) || (num1 == 5 && num2 == 1) || (num1 == 1 && num2 == 4) || (num1 == 4 && num2 == 3) || (num1 == 3 && num2 == 5) || (num1 == 5 && num2 == 2) || (num1 == 2 && num2 == 1))
@@ -89,4 +91,4 @@ int main()
     return 0;
 }
 
-// 0 - WILLY || 1 - RODRIGO || 2 - EMPATE
+// https://www.thehuxley.com/problem/3587?quizId=7484
