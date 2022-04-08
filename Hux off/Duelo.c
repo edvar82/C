@@ -2,8 +2,9 @@
 
 int main()
 {
-    double myLevel, dano, enemyLevel, enemyLife, myMult, enemyMult, newDano, newLife;
-    scanf("%lf %lf %lf %lf", &myLevel, &dano, &enemyLevel, &enemyLife);
+    int myLevel, dano, enemyLevel, enemyLife;
+    double myMult, enemyMult, newDano, newLife;
+    scanf("%d %d %d %d", &myLevel, &dano, &enemyLevel, &enemyLife);
 
     if (myLevel < 1 || enemyLevel < 1)
     {
@@ -52,7 +53,7 @@ int main()
         newDano = myMult * dano;
         newLife = enemyMult * enemyLife;
 
-        if (newDano > newLife)
+        if (newDano >= newLife)
         {
             printf("Personagem 1 venceu\nDano causado: %.2lf\n", newDano);
         }
